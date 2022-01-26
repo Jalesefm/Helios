@@ -1,0 +1,141 @@
+html,
+body {
+    direction: rtl;
+    background-color: rgb(23, 197, 228);
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.header {
+    width: 90vw;
+    height: 10vh;
+    background-color: rgb(225, 236, 241);
+    border: 0.15vw solid rgb(51, 115, 139);
+    border-radius: 1vw;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header * {
+    margin-right: 0.3vw;
+}
+
+.mainApp {
+    width: 90vw;
+    height: 87vh;
+    margin-top: 1vh;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+}
+
+.buttonsMenu {
+    width: 19.5vw;
+    border: 0.15vw solid rgb(51, 115, 139);
+    background-color: rgb(91, 143, 150);
+    border-radius: 4vw;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center
+}
+
+.details {
+    width: 70vw;
+    border: 0.15vw solid rgb(51, 115, 139);
+    border-radius: 10vw;
+    background-color: rgb(230, 230, 230);
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 9vh;
+    height: 9vh;
+}
+
+.mainTitle {
+    color: rgb(51, 115, 139);
+    text-shadow: -0.1vw 0.1vw white, -0.1vw -0.1vw white, 0.1vw 0.1vw white, 0.1vw 0.1vw white, 0.1vw -0.1vw white,
+                0.1vw 0px 0.4vw rgb(0, 183, 255), -0.1vw 0px 0.4vw rgb(0, 183, 255),
+                0px 0.1vw 0.4vw rgb(0, 183, 255), 0px -0.1vw 0.4vw rgb(0, 183, 255);
+    font-size: 5vw;
+}
+
+.greetinMessage {
+    font-size: 1.2vw;
+    margin-right: auto;
+    margin-left: 0.3vw;
+}
+
+.greetinMessage p {
+    margin: 0;
+}
+
+#lastLoginTime {
+    font-size: 2vw;
+}
+
+
+button {
+    width: 11.5vw;
+    height: 7vh;
+    background-color: rgb(45, 152, 160);
+    background-image: linear-gradient(white, rgb(45, 152, 160), rgb(45, 152, 160), rgb(45, 152, 160));
+    box-shadow: 0vw 0.15vh 0.9vw inset black;
+    color: white;
+    border: 0.35vw inset rgb(45, 152, 160);
+    margin: 0.8vh;
+    font-size: 1.2vw;
+}
+
+button:hover{
+    cursor: grab;
+    background-image: linear-gradient(rgb(45, 152, 160), white, white, white);
+    color: rgb(255, 73, 246);
+    
+}
+
+button:active {
+    background-image: linear-gradient(blue, green, brown, purple);
+}
+
+.details div {
+    background-color: white;
+    border: 0.15vw solid rgb(51, 115, 139);
+    width: 55vw;
+    margin: 0.2vh 0;
+}
+
+#general {
+    height: 70vh;
+    margin-top: 1.8vh;
+}
+
+#specific {
+    height: 15vh;
+    margin-bottom: 1.8vh;
+}
+
+.details div p {
+    text-align: center;
+    font-size: 2vh;
+}
